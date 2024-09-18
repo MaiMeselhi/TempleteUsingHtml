@@ -37,5 +37,58 @@
                 <td><img src="images/daisy1 (2).jpg" width="300"/></td>
             </tr>
         </table>
+
+        <form>
+            <fieldset>
+              <legend>Personal Data</legend>
+              <h2>Your Name</h2>
+              firstName:<input type="text" name="firstName" />
+              <br />
+              <br />
+              lasttName:<input type="text" name="firstName" />
+            </fieldset>
+            <br /><br />
+            <label for="phone"> your Phone: </label>
+            <input type="number" name="phone" id="phone" /> <br /><br />
+            <labe for="email">Email:</labe>
+            <input type="email" name="email" required /> <br /><br />
+            <label for="password"> Password: </label>
+            <input type="password" name="password" /> <br /><br />
+            <label for="repassword"> re-Password:</label>
+            <input type="password" name="password" id="repassword" /> <br /><br />
+            <h2>Choose your Gender</h2>
+            <label for="male"> male </label>
+            <input type="radio" id="male" name="gender" value="male" />
+            <br />
+            <label for="female"> female </label>
+            <input type="radio" id="female" name="gender" value="female" />
+            <br />
+            <br />
+            <h2>Choose your Status</h2>
+            <label for="student"> student </label>
+            <input type="checkbox" id="student" name="Status" value="student"/>
+            <br />
+            <label for="grauated"> grauated </label>
+            <input type="checkbox" id="grauated" name="Status" value="grauated" />
+            <br />
+            <br />
+            <label for="countries">Countries</label>
+            <select name="country" id="countries">
+              <optgroup label="Group1">
+                <option>Egypt</option>
+                <option>Lebonen</option>
+              </optgroup>
+              <optgroup label="Group2">
+                <option>Germany</option>
+                <option>England</option>
+              </optgroup>
+              <optgroup label="Group3">
+                <option>USA</option>
+                <option>Canda</option>
+              </optgroup>
+            </select>
+            <br/><br/>
+            <button type="submit" >Submit</button>
+          </form>
     </body>
 </html>
